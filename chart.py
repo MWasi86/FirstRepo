@@ -6,3 +6,4 @@ titanic = sns.load_dataset("titanic")
 graph = sns.FacetGrid(titanic , row = "sex" , hue = "alone")
 graph = (graph.map(plt.scatter , "age" , "fare").add_legend())
 plt.show()
+#tHIS cOMMIT IN GIT EDITOR
